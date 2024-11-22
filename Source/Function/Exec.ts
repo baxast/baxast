@@ -5,10 +5,7 @@ import type Interface from "../Interface/Exec.js";
  *
  */
 export default (async (
-	...[
-		Command,
-		Echo = async (Return) => console.log(Return),
-	]
+	...[Command, Echo = async (Return) => console.log(Return)]
 ) => {
 	try {
 		const { stdout, stderr } = (await import("child_process")).exec(

@@ -1,4 +1,5 @@
 import type { BuildOptions } from "esbuild";
+
 /**
  * @module ESBuild
  *

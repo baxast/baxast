@@ -1,4 +1,5 @@
 import type Interface from "../Interface/JSON.js";
+
 /**
  * @module JSON
  *
