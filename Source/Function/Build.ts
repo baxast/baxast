@@ -73,7 +73,3 @@ export const Pipe: string[] = [];
 
 export const { extname, basename, relative, dirname, normalize, sep } =
 	await import("path");
-
-export const Current = (await import("url")).fileURLToPath(
-	dirname(import.meta.url),
-);
