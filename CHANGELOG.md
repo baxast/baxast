@@ -1,5 +1,13 @@
 ## 0.2.0
 
+### Changed
+
+- Updated version to 0.2.0
+- Updated `@types/node` from 22.9.0 to 22.10.1
+- Updated `typescript` from 5.6.3 to 5.7.2
+- Simplified code in `Source/Function/Build.ts` by removing Current variable
+- Improved code formatting in `Source/Function/Exec.ts`
+
 ## 0.1.9
 
 ### Changed
@@ -9,7 +17,7 @@
   "Source/Open@PlayForm.LTD"
 - Updated URL in package.json from "HTTPS://PlayForm.Cloud" to
   "HTTPS://PlayForm.LTD"
-- Updated @types/node from version 22.7.7 to 22.9.0
+- Updated `@types/node` from version 22.7.7 to 22.9.0
 
 ## 0.1.8
 
@@ -40,12 +48,12 @@
 
 ### Changed
 
-- Updated @types/node to version 22.5.4
+- Updated `@types/node` to version 22.5.4
 - Improved build process to include CSS files.
 - Enhanced file path handling in the build process using path module functions.
 - Updated dependencies:
-    - esbuild
-    - ts-node
+    - `esbuild`
+    - `ts-node`
 
 ### Added
 
@@ -72,7 +80,7 @@
 
 - Updated version to 0.1.3
 - Updated dependencies:
-    - @types/node from 20.14.12 to 22.0.2
+    - `@types/node` from 20.14.12 to 22.0.2
 - Minor code formatting changes
 
 ### Added
@@ -86,11 +94,11 @@
 
 - Updated version to 0.1.2
 - Updated dependencies:
-    - @types/node to 20.14.12
-    - deepmerge-ts to 7.1.0
-    - typescript to "\*" (latest)
+    - `@types/node` to 20.14.12
+    - `deepmerge-ts` to 7.1.0
+    - `typescript` to "\*" (latest)
 - Updated devDependencies:
-    - ts-node to 11.0.0-beta.1
+    - `ts-node` to 11.0.0-beta.1
 - Improved error handling in Exec function
 
 ### Added
@@ -110,45 +118,45 @@
 
 - Updated version to 0.1.0
 - Updated dependencies
-- Modified Build function to support watch mode
-- Updated TypeScript configuration
+- Modified `Build` function to support watch mode
+- Updated `TypeScript` configuration
 - Updated command-line interface with clearer descriptions.
-- Expanded README.md with detailed usage instructions and examples.
+- Expanded `README.md` with detailed usage instructions and examples.
 
 ### Added
 
-- Added Watch option to Build command
+- Added `Watch` option to `Build` command
 
 ### Removed
 
-- Removed peerDependencies
+- Removed `peerDependencies`
 
 ## 0.0.11
 
 ### Changed
 
-- Updated dependencies
+- Updated `dependencies`
 
 ## 0.0.10
 
 ### Changed
 
-- Removed Document script
-- Updated dependencies
+- Removed `Document` script
+- Updated `dependencies`
 
 ## 0.0.9
 
 ### Changed
 
 - Updated version to 0.0.9
-- Updated package.json metadata
+- Updated `package.json` metadata
 - Updated dependencies
-- Modified package.json structure
+- Modified `package.json` structure
 
 ### Added
 
-- Added peerDependencies
-- Added peerDependenciesMeta for optional dependencies
+- Added `peerDependencies`
+- Added `peerDependenciesMeta` for optional dependencies
 
 ## 0.0.8
 
@@ -176,18 +184,18 @@
 - Updated package description
 - Updated author information
 - Updated dependencies
-- Removed @playform/document from devDependencies
+- Removed `@playform/document` from devDependencies
 
 ## 0.0.5
 
 ### Changed
 
 - Updated version to 0.0.5
-- Updated package.json scripts
+- Updated `package.json` scripts
 
 ### Added
 
-- Added @playform/document as a peer dependency
+- Added `@playform/document` as a peer dependency
 
 ## 0.0.4
 
@@ -195,7 +203,7 @@
 
 - Updated version to 0.0.4 (corrected from 0.0.5 in the summary)
 - Added "Document" script
-- Updated peerDependencies
+- Updated `peerDependencies`
 - Minor code formatting changes
 
 ## 0.0.3
@@ -216,7 +224,7 @@
 ### Changed
 
 - Major refactoring and restructuring of the project.
-- Updated package name to "@playform/build".
+- Updated package name to `@playform/build`.
 - Updated version to 0.0.2.
 - Updated package description, keywords, and metadata.
 - Updated dependencies.
