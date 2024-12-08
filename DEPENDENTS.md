@@ -7,7 +7,7 @@
 
 | Repository | Stars  |
 | :--------  | -----: |
-|<img class="avatar mr-2" src="https://avatars.githubusercontent.com/u/4921183?s=40&v=4" width="20" height="20" alt="">  &nbsp; [kamranahmedse](https://github.com/kamranahmedse) / [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | 300711 |
+|<img class="avatar mr-2" src="https://avatars.githubusercontent.com/u/4921183?s=40&v=4" width="20" height="20" alt="">  &nbsp; [kamranahmedse](https://github.com/kamranahmedse) / [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | 300723 |
 |<img class="avatar mr-2" src="https://avatars.githubusercontent.com/u/62941682?s=40&v=4" width="20" height="20" alt="">  &nbsp; [effector](https://github.com/effector) / [effector](https://github.com/effector/effector) | 4621 |
 |<img class="avatar mr-2" src="https://avatars.githubusercontent.com/u/79960971?s=40&v=4" width="20" height="20" alt="">  &nbsp; [openui](https://github.com/openui) / [open-ui](https://github.com/openui/open-ui) | 3603 |
 |<img class="avatar mr-2" src="https://avatars.githubusercontent.com/u/106269169?s=40&v=4" width="20" height="20" alt="">  &nbsp; [onwidget](https://github.com/onwidget) / [astrowind](https://github.com/onwidget/astrowind) | 3584 |
