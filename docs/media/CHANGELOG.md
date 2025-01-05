@@ -1,3 +1,19 @@
+## 0.2.1
+
+### Changed
+
+- Updated version to 0.2.1
+- Updated @types/node from 22.10.1 to 22.10.5
+- Updated commander from 12.1.0 to 13.0.0
+- Updated esbuild from 0.24.0 to 0.24.2
+- Updated fast-glob from 3.3.2 to 3.3.3
+- Simplified command options naming
+
+### Added
+
+- Added DEPENDENTS.md
+- Added .npmignore to exclude DEPENDENTS.md from published package
+
 ## 0.2.0
 
 ### Changed
