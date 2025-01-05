@@ -1,0 +1,1 @@
+var o=async(...[r,a=async t=>console.log(t)])=>{try{const{stdout:t,stderr:n}=(await import("child_process")).exec(r);typeof a=="function"&&(t?.on("data",async e=>await a(e.trim())),n?.on("data",async e=>await a(e.trim(),!0)))}catch(t){console.log(t)}};export{o as default};
