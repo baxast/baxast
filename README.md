@@ -1,10 +1,10 @@
-# 🌀 [Build] —
+# [Build] 🌀
 
 `Build` is a powerful tool that compiles all your `TypeScript` files into
 `JavaScript`, leveraging the speed of `ESBuild` and the type-checking
 capabilities of the `TypeScript` compiler.
 
-## 📦 Features
+## Features 📦
 
 -   Fast compilation using `ESBuild`
 -   `TypeScript` support with type-checking
@@ -12,7 +12,7 @@ capabilities of the `TypeScript` compiler.
 -   Customizable `ESBuild` configuration
 -   Supports both `CommonJS` and `ES` modules
 
-## 🚀 Installation
+## Installation 🚀
 
 Install the package as a development dependency:
 
@@ -62,7 +62,7 @@ Add `Build` to your `package.json` scripts:
 
 ## ⚙️ Configuration
 
-### 📜 ESBuild Configuration
+### ESBuild Configuration 📜
 
 Create a custom `ESBuild` configuration file (e.g., `ESBuild.ts`):
 
@@ -83,7 +83,7 @@ npx @playform/build 'Source/**/*.ts' --ESBuild ESBuild.ts
 See an example of a configuration file in
 [`ESBuild.ts`](Source/Variable/ESBuild.ts)
 
-### 📜 TypeScript Configuration
+### TypeScript Configuration 📜
 
 Create a `tsconfig.json` file in your project root:
 
@@ -99,7 +99,7 @@ Create a `tsconfig.json` file in your project root:
 }
 ```
 
-### 📜 JSConfig Configuration (optional)
+### JSConfig Configuration  📜(optional)
 
 For `JavaScript` projects using `JSDoc` comments, create a `jsconfig.json`:
 
@@ -115,7 +115,7 @@ For `JavaScript` projects using `JSDoc` comments, create a `jsconfig.json`:
 }
 ```
 
-## 🤝 Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for
 guidelines and feel free to submit a Pull Request.
