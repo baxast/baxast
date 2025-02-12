@@ -4,7 +4,7 @@
 `JavaScript`, leveraging the speed of `ESBuild` and the type-checking
 capabilities of the `TypeScript` compiler.
 
-## Features 📦
+## Feature 📦
 
 -   Fast compilation using `ESBuild`
 -   `TypeScript` support with type-checking
