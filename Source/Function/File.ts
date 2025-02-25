@@ -14,7 +14,7 @@ export default (async (...[Path]) => {
 					await import("../Function/JSON.js")
 				).default(
 					"../../tsconfig.json",
-					(await import("path")).dirname(
+					(await import("node:path")).dirname(
 						(await import("url")).fileURLToPath(import.meta.url),
 					),
 				)
@@ -31,12 +31,12 @@ export default (async (...[Path]) => {
 			.emit();
 
 		await (
-			await import("fs/promises")
+			await import("node:fs/promises")
 		).writeFile(
 			Path.replace(".ts", ".js"),
 			(await import("typescript")).default.transpile(
 				(
-					await (await import("fs/promises")).readFile(Path, "utf-8")
+					await (await import("node:fs/promises")).readFile(Path, "utf-8")
 				).toString(),
 				Option,
 			),

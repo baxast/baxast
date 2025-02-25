@@ -72,4 +72,4 @@ export const { default: Merge } = await import("../Function/Merge.js");
 export const Pipe: string[] = [];
 
 export const { extname, basename, relative, dirname, normalize, sep } =
-	await import("path");
+	await import("node:path");
