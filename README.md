@@ -6,11 +6,11 @@ capabilities of the `TypeScript` compiler.
 
 ## Feature 📦
 
--   Fast compilation using `ESBuild`
--   `TypeScript` support with type-checking
--   Watch mode for development
--   Customizable `ESBuild` configuration
--   Supports both `CommonJS` and `ES` modules
+- Fast compilation using `ESBuild`
+- `TypeScript` support with type-checking
+- Watch mode for development
+- Customizable `ESBuild` configuration
+- Supports both `CommonJS` and `ES` modules
 
 ## Installation 🚀
 
